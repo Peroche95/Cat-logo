@@ -1,0 +1,73 @@
+body {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 225, 1) 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.tiaras-container ,
+.lacos-container  {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+h2{  
+    font-size: 40px;
+    margin-top: 250px; 
+    margin-right: 20px;
+}
+
+
+
+.item {
+    width: 300px;
+    margin: 0 10px 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.item img {
+    margin: auto;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item h1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+.item .info p:last-child {
+    font-weight: bold;
+    color: #007bff;
+}
+
